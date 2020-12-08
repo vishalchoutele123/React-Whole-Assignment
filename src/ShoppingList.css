@@ -1,0 +1,108 @@
+body {
+  background-color: #e6f3ff;
+  margin-bottom: 150%;
+  
+}
+
+
+section {
+  position: relative;
+  overflow: hidden;
+  width: 400px;
+  padding: 60px 20px 20px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin: 30px 40px;
+  box-shadow: 0 10px 40px -14px rgba(135, 144, 158, 0.6), 0 10px 40px -10px rgba(135, 144, 158, 0.6);
+}
+
+form{
+  margin-right: 100px;
+}
+
+input, button {
+  border: 1px solid #aaa;
+  padding: 5px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+label {
+  display: block;
+}
+
+
+
+input[type='text'] {
+  box-shadow: inset 1px 1px 1px #ccc;
+}
+
+input[type='text'] + button[type='submit'] {
+  margin-left: 10px;
+}
+
+h3 {
+  background-color: #4CAF50;
+  margin-top: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+
+p:first-of-type {
+  margin-top: 0;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+span.error {
+  display: block;
+  color: #f00;
+}
+
+ul {
+  margin: 0 0 20px;
+  padding: 0;
+}
+
+li {
+  color: #0062cc;
+  display: flex;
+  font-weight: bold;
+  align-items: baseline;
+  border-radius: 4px;
+}
+
+li span {
+  flex: 1;
+  padding-left: 10px;
+}
+
+li input:checked + span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+li button {
+  justify-content: flex-end;
+  visibility: hidden;
+  cursor: pointer;
+  float: unset;
+  float: right;
+  
+}
+
+li:hover {
+  background-color: #eee;
+}
+
+li:hover button {
+  visibility: visible;
+}
